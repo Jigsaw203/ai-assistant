@@ -1,6 +1,5 @@
 # AI助手管理系统前端
 
-<div align="center">
 
 一个功能完整的AI助手管理平台，支持智能任务分配、多助手协作和实时监控
 
@@ -10,7 +9,6 @@
 
 ------
 
-## 中文
 
 ### 项目简介
 
@@ -18,7 +16,8 @@ AI助手管理系统是一个现代化的Web应用程序，用于统一管理和
 
 ### 效果图
 
-![image-20251020202634342](C:\Users\87359\AppData\Roaming\Typora\typora-user-images\image-20251020202634342.png)
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c32afd16-0001-4b7d-9970-bed9b8ddd3c8" />
+
 
 
 
@@ -29,6 +28,7 @@ AI助手管理系统是一个现代化的Web应用程序，用于统一管理和
 - 实时统计卡片展示
 - 任务分布饼图（自定义配色）
 - 待处理任务队列
+![dashboard](https://github.com/user-attachments/assets/49aa0be5-5b46-4af0-b20e-17dd0dd4ea3a)
 
 
 
@@ -37,6 +37,7 @@ AI助手管理系统是一个现代化的Web应用程序，用于统一管理和
 - 表格化展示助手列表
 - 在线/离线状态标识
 - 快捷操作按钮
+![assistants](https://github.com/user-attachments/assets/082545c3-9792-4e59-a202-2c6c83292602)
 
 
 
@@ -45,7 +46,10 @@ AI助手管理系统是一个现代化的Web应用程序，用于统一管理和
 - 分状态展示（运行中/已完成）
 - 智能分配与多助手协作
 - 状态实时更新
+![tasks](https://github.com/user-attachments/assets/8cc073ff-9760-4f2c-afef-58e0f2503263)
 
+#### 日志中心
+![logs](https://github.com/user-attachments/assets/e49c12d7-a325-49bc-bcc9-30ad1d795276)
 
 
 #### 统计中心
@@ -53,8 +57,7 @@ AI助手管理系统是一个现代化的Web应用程序，用于统一管理和
 - 多维度数据展示
 - 助手性能指标
 - 任务成功率分析
-
-
+![stats](https://github.com/user-attachments/assets/1a2fc6e4-1cbe-459f-a544-123f548fd5d2)
 
 
 
@@ -185,5 +188,4 @@ const BACKGROUND_COLORS = [
 
 ------
 
-<div align="center">
 
