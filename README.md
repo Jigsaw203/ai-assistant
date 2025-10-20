@@ -1,5 +1,4 @@
-# ai-assistant
-# AI助手管理系统
+# AI助手管理系统前端
 
 <div align="center">
 
@@ -19,9 +18,45 @@ AI助手管理系统是一个现代化的Web应用程序，用于统一管理和
 
 ### 效果图
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/7df1f891-ccc8-4e3f-aad6-4311bdabb86f" />
-数据中心
-![dashboard](https://github.com/user-attachments/assets/b60665a4-06ca-4cd7-9e41-1e6da1f67ae3)
+![image-20251020202634342](C:\Users\87359\AppData\Roaming\Typora\typora-user-images\image-20251020202634342.png)
+
+
+
+### 功能演示
+
+#### 数据中心仪表盘
+
+- 实时统计卡片展示
+- 任务分布饼图（自定义配色）
+- 待处理任务队列
+
+
+
+#### 助手管理页面
+
+- 表格化展示助手列表
+- 在线/离线状态标识
+- 快捷操作按钮
+
+
+
+#### 任务管理视图
+
+- 分状态展示（运行中/已完成）
+- 智能分配与多助手协作
+- 状态实时更新
+
+
+
+#### 统计中心
+
+- 多维度数据展示
+- 助手性能指标
+- 任务成功率分析
+
+
+
+
 
 ### 核心功能
 
@@ -78,45 +113,7 @@ ai-assistant-dashboard/
     ├── /assistant               # 助手管理
     ├── /task                    # 任务队列
     ├── /assign                  # 任务分配
-    └── /log                     # 操作日志
-```
-
-### 快速开始
-
-#### 前置要求
-
-- 现代浏览器（Chrome 90+, Firefox 88+, Edge 90+）
-- 后端API服务（需自行实现或使用Mock数据）
-
-#### 安装步骤
-
-1. **克隆项目**
-
-```bash
-git clone https://github.com/yourusername/ai-assistant-dashboard.git
-cd ai-assistant-dashboard
-```
-
-1. **配置后端**
-
-```javascript
-// 在 ai-assistant-dashboard.html 中修改API地址
-const BASE_URL = 'http://your-backend-url:8080/api';
-```
-
-1. **启动前端**
-
-```bash
-# 使用任意HTTP服务器
-python -m http.server 8000
-# 或
-npx serve
-```
-
-1. **访问应用**
-
-```
-http://localhost:8000/ai-assistant-dashboard.html
+    └── /log                    # 操作日志
 ```
 
 ### API接口说明
@@ -161,32 +158,6 @@ POST /api/assign/multi/{taskId} # 多助手协作
 ```http
 GET /api/log                    # 获取所有日志
 ```
-
-### 功能演示
-
-#### 数据中心仪表盘
-
-- 实时统计卡片展示
-- 任务分布饼图（自定义配色）
-- 待处理任务队列
-
-#### 助手管理页面
-
-- 表格化展示助手列表
-- 在线/离线状态标识
-- 快捷操作按钮
-
-#### 任务管理视图
-
-- 分状态展示（运行中/已完成）
-- 智能分配与多助手协作
-- 状态实时更新
-
-#### 统计中心
-
-- 多维度数据展示
-- 助手性能指标
-- 任务成功率分析
 
 ### 自定义配置
 
